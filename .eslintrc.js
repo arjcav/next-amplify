@@ -5,8 +5,9 @@ module.exports = {
     node: true
   },
   extends: [
-    'plugin:react/recommended',
-    'standard'
+    'plugin:@next/next/recommended',
+    'standard',
+    'prettier'
   ],
   parserOptions: {
     ecmaFeatures: {
@@ -15,8 +16,6 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module'
   },
-  plugins: [
-    'react'
-  ],
+  plugins: ['react'],
   rules: {}
 }
