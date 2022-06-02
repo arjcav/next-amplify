@@ -1,9 +1,7 @@
-import styles from '../styles/Home.module.css';
+import { Image } from "@aws-amplify/ui-react";
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <h1>Hi Next Amplify</h1>
-    </div>
-  );
-}
+const DefaultImageExample = () => {
+	return <Image src="/road-to-milford-new-zealand-800w.jpg" alt="View from road to Milford Sound, New Zealand" />;
+};
+
+export default DefaultImageExample;
